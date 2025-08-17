@@ -39,6 +39,7 @@ models:
   jaffle_shop:
     # Applies to all files under models/example/
     staging:
+      +schema: staging
       +materialized: view
     marts:
       +materialized: table
