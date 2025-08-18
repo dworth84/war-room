@@ -1,0 +1,18 @@
+version: 2
+sources:
+  - name: promo
+    database: raw
+    schema: promo
+    tables:
+      - name: items_dim
+      - name: locations_dim
+      - name: baseline_units
+      - name: promo_calendar
+      - name: pos_hourly_today
+      - name: inventory_hourly_today
+      - name: inventory_daily
+      - name: price_file
+      - name: pos_daily
+      - name: planogram
+      - name: store_visit_notes
+      - name: shelf_images
